@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sornali's Portfolio</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+    body { background: linear-gradient(135deg, #cce0ff, #e6e6ff); color: #333; }
+
+    nav {
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 20px 50px; background: #0f2c59; box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+      position: sticky; top: 0; z-index: 1000;
+    }
+    .logo { font-size: 2.2em; font-weight: bold; color: #ffffff; letter-spacing: 1px; }
+    nav ul { list-style: none; display: flex; gap: 30px; }
+    nav ul li a { text-decoration: none; color: #ffffff; font-weight: 500; transition: 0.3s; font-size: 1.1em; }
+    nav ul li a:hover { color: #ffd700; }
+
+    .hero { display: flex; align-items: center; justify-content: center; padding: 80px 20px; flex-wrap: wrap; gap: 50px; }
+    .intro { max-width: 500px; text-align: center; }
+    .intro h1 { font-size: 2.8em; margin-bottom: 20px; }
+    .intro span { color: #0f2c59; font-weight: bold; }
+    .dynamic-text {
+      font-size: 1.6em; color: #00509e; font-weight: 600; margin-top: 10px;
+    }
+
+    .photo img {
+      width: 350px; height: 350px; border-radius: 50%; box-shadow: 0 8px 20px rgba(0,0,0,0.3); object-fit: cover; border: 5px solid #fff;
+    }
+
+    section {
+      max-width: 1000px; margin: 50px auto; background: #ffffff; padding: 40px; border-radius: 20px; box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    }
+    h2 { border-left: 5px solid #0f2c59; padding-left: 15px; margin-bottom: 25px; color: #0f2c59; font-size: 2em; }
+    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; font-size: 1.1em; }
+    .grid div { margin-bottom: 20px; }
+
+    .links { text-align: center; margin: 20px 0; }
+    .links a { margin: 0 20px; font-size: 2em; color: #0f2c59; transition: 0.3s; }
+    .links a:hover { color: #ffd700; transform: scale(1.2); }
+
+    footer {
+      background: #0f2c59; padding: 40px; text-align: center; color: #fff; margin-top: 50px;
+    }
+    footer ul { list-style: none; display: flex; justify-content: center; gap: 40px; margin-bottom: 20px; }
+    footer ul li a { text-decoration: none; color: #ffd700; font-weight: bold; font-size: 1.1em; }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="logo">SORNALI'S PORTFOLIO</div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="hero" id="home">
+    <div class="intro">
+      <h1>Hi, My name is <span>Sornali</span></h1>
+      <p>I am a BTech student in <b>Jadavpur University (3rd year)</b>.</p>
+      <div class="dynamic-text" id="dynamicText">I am a passionate web designer.</div>
+    </div>
+    <div class="photo">
+      <img src="profile.jpeg" alt="Sornali Sen Profile">
+    </div>
+  </div>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Highly motivated 3rd-year B.Tech Computer Science Engineering student at Jadavpur University with a unique combination of technical expertise, creative skills, and public presentation experience. Strong in software development, content creation, digital marketing, and social media management. Actively involved in competitive programming, hackathons, personal projects, and modeling. Known for adaptability, problem-solving, and excellent communication.</p>
+  </section>
+
+  <section id="services">
+    <h2>Details</h2>
+    <div class="grid">
+      <div><b>Education:</b><br> Jadavpur University (CGPA 7.2)<br> ISC: 85.6%<br> ICSE: 92%</div>
+      <div><b>Technical Skills:</b><br> C, C++, Java, Python, HTML, CSS, JavaScript, API Integration, Git, GitHub, VS Code</div>
+      <div><b>Additional Skills:</b><br> Social Media Marketing (20.2K+ followers), Content Writing, Critical Thinking, Emotional Intelligence, Team Management</div>
+      <div><b>Projects:</b><br> Career.ai, Portfolio Website, Weather App</div>
+      <div><b>Activities:</b><br> Hack Synthesis 2.0, LeetCode & GFG Competitive Programming, Social Media Management</div>
+      <div><b>Achievements:</b><br> Personal & team projects, established personal brand</div>
+      <div><b>Core Strengths:</b><br> Collaboration, Problem Solving, Digital Marketing, Communication</div>
+      <div><b>Languages:</b><br> English (Fluent), Hindi (Fluent), Bengali (Native)</div>
+      <div><b>Hobbies:</b><br> Photography, Modeling, Content Creation</div>
+      <div><b>Career Interests:</b><br> Software Development, Web Development, AI & Data Applications, Digital Marketing</div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>My Links</h2>
+    <div class="links">
+      <a href="https://www.linkedin.com/in/sornali-sen-a90b61313/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/proswarnali24" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.instagram.com/swarnali.sen.24?igsh=NmR2ZHhqZmw2YWsx" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://leetcode.com/u/procoderSwarno24/" target="_blank"><i class="fa-solid fa-code"></i></a>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: sornalisen18@gmail.com</p>
+    <p>Phone: 7439407528</p>
+    <p>Location: Kolkata, India</p>
+  </section>
+
+  <footer>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <p>Sornali's Portfolio &copy; 2025</p>
+    <p>www.sornalisportfolio.com</p>
+  </footer>
+
+  <script>
+    const textArray = ["I am a passionate web designer.", "I am a passionate coder.", "I love building projects."];
+    let counter = 0;
+    setInterval(() => {
+      document.getElementById("dynamicText").innerText = textArray[counter];
+      counter = (counter + 1) % textArray.length;
+    }, 2500);
+  </script>
+</body>
+</html>
